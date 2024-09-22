@@ -1,0 +1,23 @@
+:root{
+    --background-color: #12141d;
+    --background-sec-color: #212529;
+    --button: #7579d9;
+    --gold: #FFC107;
+    --dark: #333;
+    --light: #fff;
+    --primary: #333;
+    --background: #12141d;
+    --text: #fff;
+    --text-tertiary: #666;
+    --text-quaternary: #999;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}

@@ -1,0 +1,56 @@
+.navbar{
+    width: 100%;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0 3px 20px #0000001a;
+}
+.navbar-container{
+    height: 60px;
+    padding-inline: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-logo{
+}
+.navbar-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-item{
+    text-decoration: none;
+    padding-inline: 20px;
+    color: white;
+}
+
+.navbar-item-profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+/* RES */
+@media only screen and (max-width: 800px) {
+    .navbar-menu-open,
+    .navbar-menu-close{
+        animation: rotate 0.3s ease-in-out forwards;
+    }
+    
+    @keyframes rotate {
+        from {
+            transform: rotate(180deg);
+        }
+        to {
+            transform: rotate(0);
+        }
+      }
+}

@@ -1,0 +1,94 @@
+.homepage{
+}
+.homepage-top{
+    padding: 5% 10%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.homepage-top-left{
+}
+.homepage-top-left > h1{
+    font-size: 54px;
+    margin: 0;
+}
+.homepage-top-left > h1> span{
+    color: var(--gold);
+}
+.homepage-top-left > h2{}
+.homepage-top-left > div{
+    padding-block: 10px 30px;
+}
+.invest-now-button{
+    background-color: var(--button);
+    color: var(--text);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+}
+.homepage-top > img{
+    width: 100%;
+}
+
+
+/* Fetures */
+.homepage-fetures{
+    padding: 2% 10%;
+    background-color: var(--background-sec-color);
+    min-height: 90vh;
+}
+.fetures-img{}
+.fetures-img > img{
+    width: 10%;
+}
+.homepage-fetures > h1{
+    text-align: center;
+    margin-top: -30px;
+    font-size: 50px;
+    padding-inline: 10%;
+}
+
+.button-group {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.button-group-card{
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      border: 2px solid yellow;
+      padding: 5px;
+      border-radius: 20px;
+      /* width: 480px; */
+  }
+  
+  .button {
+    width: 150px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 50px;
+  }
+  
+  .button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .button.selected {
+    background-color: var(--gold);
+    font-weight: 550;
+    transition: background-color 0.3s;
+    border: 1px solid white;
+  }
+
+  .homepage-fetures-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

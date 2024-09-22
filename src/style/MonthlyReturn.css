@@ -1,0 +1,38 @@
+.feture-monthly-return{
+    width: 350px;
+    background-color: var(--background-color);
+    padding: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+.feture-monthly-return > div{
+    display: flex;
+    justify-content: space-between;
+}
+.feture-monthly-return-title{
+    margin-bottom: 10px;
+}
+.feture-monthly-return > div > div{
+    display: flex;
+}
+.feture-monthly-return > div > div> input{
+    width: 80px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    text-align: center;
+}
+.amount-slider{
+    margin-block: 20px 70px;
+}
+
+.ant-slider-rail{
+    color: white !important;
+    background-color: white !important;
+}
+.feture-monthly-return > button{
+    margin-top: 40px;
+    float: right;
+}
